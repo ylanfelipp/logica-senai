@@ -80,5 +80,5 @@ console.log(numbers)
 
 console.log('Criando um array com nome de algumas cidade e motando frase com duas delas...')
 const cidades = ['Florianópolis', 'São Paulo', 'Natal', 'Curitiba', 'Porto Alegre']
-console.log(cidades)
+console.table(cidades)
 console.log(`Adoraria morar em ${cidades[0]} e de vez em quando tirar férias em ${cidades[2]}`)
