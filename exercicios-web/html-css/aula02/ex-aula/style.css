@@ -1,0 +1,40 @@
+p {
+    color: purple;
+}
+
+.texto-verde {
+    color: green;
+}
+
+#texto-unico {
+    color: black;
+}
+
+body {
+    /* background: linear-gradient(green, blue, yellow);
+    background-attachment: fixed; */
+    text-align: center;
+}
+
+.fora {
+    /* background-color: rgb(45, 211, 125); */
+    /* background-image: url("./img/images.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain; */
+    width: 600px;
+    height: 500px;
+    padding: 30px 10px 50px;
+}
+
+.dentro {
+    background-color: green;
+    width: 200px;
+    height: 100px;
+    margin: 20px 10px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}

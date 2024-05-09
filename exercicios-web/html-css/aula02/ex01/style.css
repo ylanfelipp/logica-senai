@@ -1,0 +1,88 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(#F7D068, #FDA781);
+    color: #FFFFFF;
+    padding: 15px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 0.3em;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-right: 0.5em;
+    text-decoration: none;
+}
+
+main {
+    width: 800px;
+    margin: 20px auto;
+}
+
+main .titulo-foto h2 {
+    margin-top: 20px;
+}
+
+main .titulo-foto img {
+    width: 100%;
+    display: block;
+    margin: 20px auto;
+}
+
+main .ingrediente-preparo h3 {
+    margin-top: 40px;
+}
+
+.ingrediente-preparo ul, ol {
+    margin-left: 12px;
+}
+
+.ingrediente-preparo li {
+    margin: 0.5em;
+}
+
+.video {
+    width: 480px;
+    margin: auto;
+}
+
+.video iframe {
+    width: 100%;
+    height: 250px;
+    margin: 0.5em;
+}
+
+.video h3 {
+    text-align: center;
+}
+
+main .dicas {
+    margin: 10px;
+}
+
+main .dicas ul li {
+    margin: 0.5em;
+}
+
+footer {
+    background-color: #DDDDDD;
+    width: 100%;
+    height: 10px;
+    padding: 10px;
+    padding-bottom: 25px;
+    font-size: 14px;
+    text-align: center;
+}
