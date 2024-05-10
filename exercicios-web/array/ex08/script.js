@@ -1,0 +1,2 @@
+const produtos = []
+const precos = []
