@@ -1,5 +1,11 @@
 let nums = []
 
+/*
+    2) Crie um programa onde o usuário digite 5 números inteiros. Ao terminar 
+    de digitar os números, mostrar um Array somente com números ímpares digitados 
+    e a soma desses números.
+*/
+
 for (let i = 0; i < 5; i++) {
     const num = parseInt(prompt(`Informe o ${i + 1}° número:`))
 

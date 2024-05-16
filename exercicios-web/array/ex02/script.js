@@ -1,3 +1,10 @@
+/*
+    1) Solicite para o usuário a informação de 6 notas, 
+    adicione cada uma delas ao final de um Array, ao final 
+    realize a média das notas descartando a maior e a menor. 
+    Mostra na tela a média.
+*/
+
 const notas = []
 
 let maior

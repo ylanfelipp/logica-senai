@@ -1,3 +1,11 @@
+/* 
+    3) Fazer um programa que simule uma fila de lotérica. 
+    Começar um Array vazio e dar as seguintes opções: 
+    A) Entrar pessoa (perguntar o nome)
+    B) Sair pessoa (sempre a que entrou primeiro)
+    Se a fila acumular 5 pessoas, finalizar o programa e mostrar a ordem da fila
+*/
+
 const filaPessoas = []
 
 while(filaPessoas.length < 5) {
