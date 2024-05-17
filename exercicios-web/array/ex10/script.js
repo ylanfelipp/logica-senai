@@ -1,5 +1,5 @@
 /*
-    11) Faça um programa que crie um vetor vazio. 
+    8) Faça um programa que crie um vetor vazio. 
     Esse programa deve perguntar qual opção o usuário 
     deseja (1, 2, 3, 0) e as opções devem executar as 
     tarefas abaixo. Criar as mensagens e a forma de pesquisa 
@@ -56,7 +56,19 @@ do {
             }
             break
         case 4:
-            
+            let pesquisar = prompt("Pesquisar:")
+            if (bancoDeDados.includes(pesquisar)) {
+                let index = bancoDeDados.indexOf(pesquisar)
+                alert(`Resultado: ${bancoDeDados[index]}`)
+            } else {
+                alert("Nome não encontrado!")
+            }
+            break
+        case 5:
+            alert(`Nomes cadastrados: [${bancoDeDados.join(', ')}]`)
+            break
+        default:
+            alert("Opção inválida!")
     }
 
 
