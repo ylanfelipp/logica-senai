@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label, input, textarea {
+    margin-bottom: 10px;
+}
+
+form input[type="email"], input[type="tel"] {
+    width: 220px;
+    height: 25px;
+    padding: 0.5em;
+}
+
+form textarea {
+    width: 350px;
+    height: 220px;
+    padding: 0.5em;
+    resize: none;
+    outline: none;
+}
+
+
+form input[type="submit"] {
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}

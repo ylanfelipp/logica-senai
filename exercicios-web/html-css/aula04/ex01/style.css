@@ -1,0 +1,33 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+main div {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.div {
+    background-color: turquoise;
+    width: 400px;
+    /* height: 400px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div div {
+    background-color: purple;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}

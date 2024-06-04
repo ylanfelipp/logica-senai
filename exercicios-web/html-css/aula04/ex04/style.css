@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+form .rg1 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.rg1 input {
+    width: 220px;
+    height: 25px;
+    padding: 0.5em;
+}
+
+.rg1 input, label, .op1 {
+    margin-bottom: 10px;
+}
