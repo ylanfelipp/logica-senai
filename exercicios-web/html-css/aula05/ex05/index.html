@@ -14,24 +14,30 @@
         <label for="id_profissao">Profissão:</label>
         <input type="text" name="profissao" id="id_profissao" placeholder="Desenvolvedor Fullstack Júnior">
         <label for="id_peso">Peso:</label>
-        <input type="text" name="peso" id="id_peso" placeholder="63,500 KG">
+        <input type="number" step="0.01" name="peso" id="id_peso" placeholder="63.500 KG">
         <label for="id_altura">Altura:</label>
-        <input type="text" name="altura" id="id_altura" placeholder="1,80">
+        <input type="number" step="0.01" name="altura" id="id_altura" placeholder="1.80">
         <label for="id_imagem">URL Imagem:</label>
-        <input type="text" name="imagem" id="id_imagem" placeholder="https://localdaimagem.com">
+        <input type="url" name="imagem" id="id_imagem" placeholder="https://localdaimagem.com">
         <button type="submit" onclick="avaliarUsuario(event)">Avaliar</button>
     </form>
-    <div class="ficha" style="display: none;">
-        <ul>
-            <li class="img">
-                <img src="" alt="">
-            </li>
-            <li class="nome"></li>
-            <li class="profissao"></li>
-            <li class="altura"></li>
-            <li class="peso"></li>
-            <li class="imc"></li>
-        </ul>
+    <div class="wrapper">
+        <div class="box">
+            <div class="sub-box">
+                <ul class="dados">
+                    <li class="img">
+                        <img src="" alt="">
+                    </li>
+                    <li class="nome">
+                    </li>
+                    <li class="profissao">
+                    </li>
+                    <li class="peso"></li>
+                    <li class="altura"></li>
+                    <li class="imc"></li>
+                </ul>
+            </div>
+        </div>
     </div>
 </body>
 </html>
