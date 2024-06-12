@@ -73,7 +73,7 @@ popup.addEventListener('click', e => {
     popup.style.display = "none"
 
     inputs.forEach((el) => {
-        el.style.display = "inline"
+        el.style.display = "inline" 
     })
 
     labels.forEach(el => {
