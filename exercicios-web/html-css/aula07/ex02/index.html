@@ -12,6 +12,7 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -19,50 +20,58 @@
         <h1>Todo dia celular</h1>
     </header>
     <main>
-        <!-- <div class="container">
+        <div class="container">
             <div class="imagem">
                 <img src="https://t2.tudocdn.net/660908?w=147&h=304" alt="Celular Samsung Galaxy M54">
             </div>
             <h2>Samsung Galaxy M54</h2>
             <p>Preço: R$ 1.589,90</p>
-            <button type="button">Comprar</button>
-        </div> -->
+            <button type="button" onclick="comprarProduto()">Comprar</button>
+        </div>
         <div class="wrapper">
             <div class="sub-box">
-                <div class="fechar-popup">
+                <div class="fechar-popup" onclick="comprarProduto()">
                     <span>x</span>
                 </div>
-                <div class="celular">
-                    <img src="https://t2.tudocdn.net/660908?w=147&h=304" alt="celular Samsung Galaxy M54.jpg">
-                    <table>
-                        <thead>
-                            <th>Notas</th>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th>Custo-benefício</th>
-                                <td>7.2/10</td>
-                            </tr>
-                            <tr>
-                                <th>Hadware</th>
-                                <td>8.1/10</td>
-                            </tr>
-                            <tr>
-                                <th>Tela</th>
-                                <td>
-                                    8.3/10
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>Câmera</th>
-                                <td>8.3/10</td>
-                            </tr>
-                            <tr>
-                                <th>Desempenho</th>
-                                <td>6.2/10</td>
-                            </tr>
-                        </tbody>
-                    </table>
+
+                <div class="box-celular">
+                    <div class="titulo"><h2>Samsung Galaxy M54</h2></div>
+                    <div class="celular">
+                        <img src="https://t2.tudocdn.net/660908?w=147&h=304" alt="celular Samsung Galaxy M54.jpg">
+                        <table>
+                            <caption>Notas</caption>
+                            <tbody>
+                                <tr>
+                                    <th>Custo-benefício</th>
+                                    <td>7.2/10</td>
+                                </tr>
+                                <tr>
+                                    <th>Hadware</th>
+                                    <td>8.1/10</td>
+                                </tr>
+                                <tr>
+                                    <th>Tela</th>
+                                    <td>
+                                        8.3/10
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Câmera</th>
+                                    <td>8.3/10</td>
+                                </tr>
+                                <tr>
+                                    <th>Desempenho</th>
+                                    <td>6.2/10</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th>Melhor Preço:</th>
+                                    <td>R$ 1.589,90</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
                 </div>
                 <div class="adicionar-carrinho">
                     <button type="button">Adicionar ao Carrinho</button>
