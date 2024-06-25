@@ -1,0 +1,33 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    color: #FFFFFF;
+    width: 300px;
+    text-align: center;
+    overflow: auto;
+}
+
+table thead {
+    background-color: #005f73;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #073B4C;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #0a9396;
+}
+
+
+.delete {
+    cursor: pointer;
+}
